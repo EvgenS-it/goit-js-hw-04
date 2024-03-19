@@ -1,11 +1,11 @@
 function calcAverageCalories(days) {
-  let sumOfCaliries = 0;
+  let sumOfCalories = 0;
   for (let i = 0; i < days.length; i++) {
-    sumOfCaliries += days[i].calories;
+    sumOfCalories += days[i].calories;
   }
   let averageCalories = 0;
-  if (sumOfCaliries > 0) {
-    averageCalories = sumOfCaliries / days.length;
+  if (sumOfCalories > 0) {
+    averageCalories = sumOfCalories / days.length;
   } 
   return averageCalories;
 }
